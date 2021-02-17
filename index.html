@@ -8,7 +8,7 @@
 
     <title>dev.finance$</title>
 
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
@@ -18,7 +18,7 @@
 <body>
 
     <header>
-        <img src="./assets/logo.svg" alt="Logo Dev Finance">
+        <img src="./assets/images/logo.svg" alt="Logo Dev Finance">
     </header>
 
     <main class="container">
@@ -28,21 +28,21 @@
             <div class="card">
                 <h3>
                     <span>Entradas</span>
-                    <img src="./assets/income.svg" alt="Image de Entradas">
+                    <img src="./assets/images/income.svg" alt="Image de Entradas">
                 </h3>
                 <p>R$ 5.000,00</p>
             </div>
             <div class="card">
                 <h3>
                     <span>Saidas</span>
-                    <img src="./assets/expense.svg" alt="Image de Saidas">
+                    <img src="./assets/images/expense.svg" alt="Image de Saidas">
                 </h3>
                 <p>R$ 2.000,00</p>
             </div>
             <div class="card total">
                 <h3>
                     <span>Total</span>
-                    <img src="./assets/total.svg" alt="Image de Total">
+                    <img src="./assets/images/total.svg" alt="Image de Total">
                 </h3>
                 <p>R$ 3.000,00</p>
             </div>
@@ -68,7 +68,7 @@
                         <td class="expense">- R$ 500,00</td>
                         <td class="date">10/02/2021</td>
                         <td>
-                            <img src="./assets/minus.svg" alt="Remover Transação">
+                            <img src="./assets/images/minus.svg" alt="Remover Transação">
                         </td>
                     </tr>
                     <tr>
@@ -76,7 +76,7 @@
                         <td class="income">R$ 5.000,00</td>
                         <td class="date">10/02/2021</td>
                         <td>
-                            <img src="./assets/plus.svg" alt="Adicionar Transação">
+                            <img src="./assets/images/plus.svg" alt="Adicionar Transação">
                         </td>
                     </tr>
                     <tr>
@@ -84,7 +84,7 @@
                         <td class="expense">- R$ 200,00</td>
                         <td class="date">10/02/2021</td>
                         <td>
-                            <img src="./assets/minus.svg" alt="Remover Transação">
+                            <img src="./assets/images/minus.svg" alt="Remover Transação">
                         </td>
                     </tr>
                 </tbody>
@@ -125,22 +125,7 @@
         <p>dev.finance$</p>
     </footer>
 
-    <script>
-        const Modal = {
-            open() {
-                // Abrir Modal
-                //Adicionar a classe active ao modal
-                document.querySelector('.modal-overlay')
-                    .classList.add('active')
-            },
-            close() {
-                //Fechar o modal
-                //Remover a classe active do modal
-                document.querySelector('.modal-overlay')
-                    .classList.remove('active')
-            }
-        }
-    </script>
+    <script src="./assets/js/script.js"></script>
 
 </body>
 
